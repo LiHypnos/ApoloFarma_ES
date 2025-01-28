@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "sql": "^0.78.0",
+    "pg": "^8.13.1",
+    "ApoloPharma": "file:"
+  },
+  "main": "src/back-end/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/back-end/index.js"
+  },
+  "keywords": [],
+  "author": "Elian Fernando Simões Costa",
+  "license": "ISC",
+  "type": "module",
+  "description": "Projeto feito para a matéria de engenharia de software",
+  "name": "projeto-es",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiHypnos/ApoloFarma_ES.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiHypnos/ApoloFarma_ES/issues"
+  },
+  "homepage": "https://github.com/LiHypnos/ApoloFarma_ES#readme"
+}
