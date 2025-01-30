@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereco</title>
+    <link rel="stylesheet" href="../Css/Endereco.css">
+
+</head>
+
+<body>
+    <div class="Adicionar Endereco">
+        <h1>Endereços</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="Endereco">lista de Endereços:</label>
+                        <input type="text" id="Endereco" name="Endereco" readonly>
+                        <button>✏️ Editar</button><button>🗑️ Excluir</button>
+                    </td>
+                </tr>
+
+
+            </table>
+
+            <button type="submit" class="button">Adicionar Novo Endereço</button>
+            <button id="Voltar" type="button" class="button" onclick="voltar()">Voltar</button>
+        </form>
+    </div>
+    <script>
+        function voltar() {
+            history.back();
+        }
+    </script>
+</body>
+
+</html>

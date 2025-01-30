@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(to bottom, lightblue, rgb(0, 139, 74));
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Login {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cadastro {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 70px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.NovoCartão {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    label{ display: block;};
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #000;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.toggle-password:hover{
+    background-color:#c9370a;
+    color:#ffffff;
+}
+
+.forgot-password {
+    margin: 10px 0;
+    color: #000;
+    text-decoration: underline;
+}
+
+.register-button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.register-button:hover{
+    background-color:#f30707;
+    color:#ffffff;
+}
+
+.login-button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color:#4607f3;
+    color:#ffffff;
+}

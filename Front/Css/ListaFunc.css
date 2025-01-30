@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background: linear-gradient(to bottom, lightblue, rgb(0, 139, 74));
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    padding-bottom: 50px;
+    /* Adicione este padding para espaçamento extra no final */
+}
+
+
+.buttons-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.header-button {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #008c4a;
+    border: 1px solid #008c4a;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: rgb(214, 206, 206)
+}
+
+#Cliente {
+
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+}
+button{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#voltar:hover{
+    background-color: red;
+}
+#CNF:hover{
+    background-color: green;
+}

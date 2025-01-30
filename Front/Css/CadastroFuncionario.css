@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to bottom, lightblue, rgb(0, 139, 74));
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cadastro {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: none;
+    /* Remove bordas */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #000;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px);
+}
+
+.register-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.register-button:hover{
+   
+    background-color: rgb(8, 161, 46);
+    color:#ffffff;
+}
+#Voltar:hover{
+    background-color:#f30707;
+}
