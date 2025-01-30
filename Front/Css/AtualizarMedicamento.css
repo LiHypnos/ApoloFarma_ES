@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(to bottom, lightblue, rgb(0, 139, 74));
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.Login,
+.cadastro,
+.NovoCartão,
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 40px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+table {
+    width: 45%;
+    border-collapse: collapse;
+}
+
+.left-table td {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.right-table td {
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+    
+    /* Alinha o texto dos rótulos à esquerda */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    
+    display: block;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+#imagem{
+    width: 200px;
+}
+.image-placeholder button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+#Selecionar:hover{
+    background-color: #0ec514;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel,
+.alter {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: #f44336;
+    color: white;
+}
+.cancel:hover{
+    background-color: #5a0505;
+    color: white;
+
+}
+
+.alter {
+    background-color: #17b91c;
+    color: white;
+}
+
+.alter:hover{
+    background-color: #1e5520;
+    color: white;
+}
+
+.header-button {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #008c4a;
+    border: 1px solid #008c4a;
+    cursor: pointer;
+}
+.header-button:hover{
+    background-color: rgb(214, 206, 206)
+}

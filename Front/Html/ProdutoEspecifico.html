@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../Css/ProdutoEspecifico.css">
+
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="buttons-container">
+            <button type="button" class="header-button">Area do usuario</button>
+            <button type="button" class="header-button">Carrinho</button>
+            <button type="button" class="header-button">Sair</button>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Pesquisar...">
+                <button type="button" class="search-button">🔍</button>
+            </div>
+        </div>
+        <h1>Apolo Pharma</h1>
+        <h2>Produtos</h2>
+    </div>
+    </div>
+    <div class="container">
+        <div class="product-list">
+            <div class="product-item" id="produto-3">
+                <img class="product-item img" src="../Img/rivotril.jpg" alt="Nome do Produto 3">
+                <h2>Nome do Produto 3</h2>
+                <p>Descrição breve do produto 3.</p>
+                
+                <input type="text" id="price" value="R$ 00,00" readonly>
+                <hr>
+                <select class="credit-card-selector">
+                    <option value="" disabled selected>Selecione o Cartão</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="amex">American Express</option>
+                    <option value="elo">Elo</option>
+                </select>
+                <hr>
+                <label for="address-selector">Endereço de Entrega:</label>
+                    <hr>
+                    <select class="address-selector" id="address-selector">
+                    <option value="" disabled selected>Selecione o Endereço</option>
+                    <option value="1">Rua Exemplo, 123 - São Paulo</option>
+                    <option value="2">Avenida Teste, 456 - Rio de Janeiro</option>
+                    <option value="3">Praça Modelo, 789 - Belo Horizonte</option>
+                </select>
+                <button id="Carrinho" type="button" class="button">Adicionar ao Carrinho</button>
+                <button id= "Comprar" type="button" class="button">Comprar</button>
+                <button id= "Voltar" type="button" class="button">Voltar</button>
+
+            </div>
+            
+
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Sua Loja</p>
+    </div>
+</body>
+
+</html>

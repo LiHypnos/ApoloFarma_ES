@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Funcionario</title>
+    <link rel="stylesheet" href="../Css/EditarFunc.css">
+
+</head>
+
+<body>
+    <div class="Func">
+        <h1>Editar Funcionario</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        #ID
+                        <label for="Nome">Nome:</label>
+                        <input type="text" id="Nome" name="Nome" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Cpf">Cpf:</label>
+                        <input type="text" id="cpf" name="cpf" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" readonly>
+                    </td>
+                </tr>
+
+            </table>
+            <button type="button" class="button" onclick="voltar()">Voltar</button>
+            <button id="Editar-button" type="submit" class="button">Editar Conta</button>
+            <button id="Deletar" type="button" class="button">Deletar</button>
+
+        </form>
+    </div>
+    <script>
+        function voltar() {
+            history.back();
+        }
+    </script>
+</body>
+
+</html>
