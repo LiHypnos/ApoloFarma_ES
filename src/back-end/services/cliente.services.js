@@ -18,9 +18,11 @@ async function update(cliente){
         return await clienteRepo.update(existence)
     }
 }
-async function del(cpf){
-    let existence = await clienteRepo.getClienteCpf(cliente.cpf)
-    return await clienteRepo.del(existence.id)
+async function del(id){
+    //let existence = await clienteRepo.getClienteCpf(id)
+    //return await clienteRepo.del(existence)
+    return await clienteRepo.del(id)
+
 }
 
 export default {get, getCliente, create, update, del}

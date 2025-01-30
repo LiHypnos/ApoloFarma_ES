@@ -113,7 +113,7 @@ async function update(req, res) {
 
 
 async function del(req, res){
-    const id = req.params.id
+    const id = req.body.id
     const data = await clienteServices.del(id)
     res.send(data)
 }
