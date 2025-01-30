@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apolo Farma</title>
+    <link rel="stylesheet" href="../Css/NovoCartao.css">
+
+</head>
+
+<body>
+    <div class="NovoCartao">
+        <h1>Novo Cartão</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="numero_cartao">Número do Cartão:</label>
+                        <input type="text" id="numero_cartao" name="numero_cartao" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="titular">Titular:</label>
+                        <input type="text" id="titular" name="titular" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="data_validade">Data de Validade:</label>
+                        <input type="text" id="data_validade" name="data_validade" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                    </td>
+                </tr>
+            </table>
+            <button id="NovoCartao" type="submit" class="button">Adicionar novo cartão</button>
+            <button type="button" class="button" onclick="voltar()">Voltar</button>
+        </form>
+    </div>
+    <script>
+        function voltar() {
+            history.back();
+        }
+    </script>
+</body>
+
+</html>

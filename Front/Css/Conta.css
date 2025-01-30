@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to bottom, lightblue, rgb(0, 139, 74));
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Conta {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+
+    background-color: #4607f3;
+    color: #ffffff;
+}
+
+.login-button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#Excluir:hover {
+    background-color: #f30707;
+    color: #ffffff;
+
+
+}
+.header {
+    
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+.header-button {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #008c4a;
+    border: 1px solid #008c4a;
+    cursor: pointer;
+}
+.header-button:hover{
+    background-color: rgb(214, 206, 206)
+}
+#Voltar:hover{
+    background-color: rgb(8, 161, 46)
+}
