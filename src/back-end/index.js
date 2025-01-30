@@ -1,6 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser'
-//import medicamentoRoutes from './routes/cliente.routes.js'
+import medicamentoRoutes from './routes/cliente.routes.js'
 import clienteRoutes from './routes/cliente.routes.js'
 //import compraRoutes from './routes/compra.routes.js'
 //import funcionarioRoutes from './routes/funcionario.routes.js'
@@ -21,3 +21,4 @@ function about(req, res){
 }
 
 app.use("/cliente", clienteRoutes)
+app.use("/medicamento", medicamentoRoutes)
