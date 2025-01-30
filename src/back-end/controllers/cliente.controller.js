@@ -72,11 +72,11 @@ async function create(req, res) {
 }
 
 async function update(req, res) {
-    const {id, name, cpf, email, senha } = req.body;
+    const {id, nome, cpf, email, senha } = req.body;
 
     // Validação para garantir que pelo menos o nome ou algum outro campo de cliente está sendo alterado
-    if (!name && !cpf && !email && !senha) {
-        return res.status(400).send('No valid fields to update');
+    if (!nome && !cpf && !email && !senha) {
+        return res.status(400).send('campos não válidos');
     }
     if (senha && senha.length < 6) {
         return res.status(400).send('Senha deve ter no mínimo 6 caracteres');
@@ -93,8 +93,8 @@ async function update(req, res) {
     try {
         // Chama a função de update para o cliente, mas sem alterar endereço ou cartão
         const clienteData = {
-            id : id,
-            nome: name,
+            id,
+            nome,
             cpf,
             email,
             senha
