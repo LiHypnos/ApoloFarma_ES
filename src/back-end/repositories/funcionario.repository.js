@@ -1,4 +1,4 @@
-import bd from '../bd.js';
+import bd from './bd.js';
 
 async function get() {
     const conn = await bd.toConnect();

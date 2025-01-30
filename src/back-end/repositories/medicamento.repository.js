@@ -1,4 +1,4 @@
-import bd from '../bd.js';
+import bd from './bd.js';
 
 async function get() {
     const conn = await bd.toConnect();
@@ -11,10 +11,21 @@ async function get() {
     }
 }
 
-async function getMed(nome) {
+async function getMedicamento(nome) {
     const conn = await bd.toConnect();
     try {
         const [rows] = await conn.query("SELECT * FROM Medicamento WHERE nome = ?;", [nome]);
+        return rows;
+    } catch (error) {
+        console.error("Erro ao buscar medicamento:", error);
+        return null;
+    }
+}
+
+async function getMedicamentoId(id) {
+    const conn = await bd.toConnect();
+    try {
+        const [rows] = await conn.query("SELECT * FROM Medicamento WHERE idMedicamento = ?;", [id]);
         return rows;
     } catch (error) {
         console.error("Erro ao buscar medicamento:", error);
@@ -61,4 +72,5 @@ async function del(id) {
     }
 }
 
-export default { get, getMed, create, update, del };
+
+export default { get, create, update, del, getMedicamento, getMedicamentoId };
